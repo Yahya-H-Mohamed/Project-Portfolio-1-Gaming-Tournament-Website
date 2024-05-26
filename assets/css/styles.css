@@ -52,6 +52,10 @@ nav li{
     display: block;
 }
 
+#nav-tab-opener:checked~label{
+    display: none;
+}
+
 #nav-tab-opener{
     display: none;
 }
