@@ -10,14 +10,27 @@
 
 body{
     font-family: "Bebas Neue", sans-serif;
+    color: white;
 }
 
 ul{
     list-style-type: none;
 }
 
+h1{
+    font-size: 40px;
+}
+
 a{
     color: white;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
 }
 
 
@@ -78,10 +91,40 @@ nav li{
 /*  Main  */
 
 
-
 main{
+    background-color: rgb(57, 169, 219);
+}
+
+#main-banner{
+    background: url(../css/images/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.avif) no-repeat center/cover;
     height: 500px;
-    background-color: #39A9DB;
+}
+
+#main-banner div{
+    background-color: rgba(57, 169, 219, 90%);
+    position: relative;
+    top: 170px;
+    width: 175px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 0;
+    letter-spacing: 1px;
+}
+
+.about-box{
+    flex: 1;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 
