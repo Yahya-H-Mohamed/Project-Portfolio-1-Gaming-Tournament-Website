@@ -133,6 +133,7 @@ main{
 
 /* Schedule  */
 
+
 #table{
     display: flex;
     align-items: center;
@@ -148,6 +149,38 @@ th, td{
     text-align: center;
     padding: 5px;
     font-size: 1.3em;
+}
+
+
+/*  Register  */
+
+
+#solo:checked~.squad{
+    display: none;
+}
+
+.duo{
+    display: none;
+}
+
+#duo:checked~.duo{
+    display: block;
+}
+
+.trio{
+    display: none;
+}
+
+#trio:checked~.trio{
+    display: block;
+}
+
+.squad{
+    display: none;
+}
+
+#squad:checked~.squad{
+    display: block;
 }
 
 

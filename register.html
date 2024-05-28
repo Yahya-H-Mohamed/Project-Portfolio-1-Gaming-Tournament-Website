@@ -25,17 +25,50 @@
     </header>
 
     <main>
-        <table>
-            <tr>
-                <th>Hi</th>
-                <th>Hi</th>
-            </tr>
+        <section>
+            <form action="" method="post">
+                <label for="username">User ID</label>
+                <input type="text" name="username" id="username" required>
 
-            <tr>
-                <td>No</td>
-                <td>no</td>
-            </tr>
-        </table>
+                <br>
+
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" required>
+
+                <br>
+
+                <label for="solo">Solo</label>
+                <input type="radio" name="team" id="solo" checked>
+
+                <label for="duo">Duo</label>
+                <input type="radio" name="team" id="duo">
+
+                <label for="trio">Trio</label>
+                <input type="radio" name="team" id="trio">
+
+                <label for="squad">Squad</label>
+                <input type="radio" name="team" id="squad">
+
+                <br>
+
+                <div class="duo trio squad">
+                    <label for="user-2">User ID #2</label>
+                    <input type="text" name="user-2" id="user-2" required>
+                </div>
+
+                <div class="trio squad">
+                    <label for="user-3">User ID #3</label>
+                    <input type="text" name="user-3" id="user-3"  required>
+                </div>
+
+                <div class="squad">
+                    <label for="user-4">User ID #4</label>
+                    <input type="text" name="user-4" id="user-4" required>
+                </div>
+
+                <input type="submit" value="Register" id="btn">
+            </form>
+        </section>
     </main>
 
     <footer>
