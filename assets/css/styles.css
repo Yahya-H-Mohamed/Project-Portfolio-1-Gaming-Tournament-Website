@@ -95,6 +95,9 @@ main{
     background-color: rgb(57, 169, 219);
 }
 
+/*  About  */
+
+
 #main-banner{
     background: url(../images/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.avif) no-repeat center/cover;
     height: 500px;
@@ -115,7 +118,7 @@ main{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 80%;
     margin: 0 auto;
     padding: 20px 0;
     letter-spacing: 1px;
@@ -124,7 +127,27 @@ main{
 .about-box{
     flex: 1;
     text-align: center;
-    margin-bottom: 15px;
+    padding-bottom: 40px;
+}
+
+
+/* Schedule  */
+
+#table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    padding: 10% 0;
+}
+
+th, td{
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.3em;
 }
 
 
