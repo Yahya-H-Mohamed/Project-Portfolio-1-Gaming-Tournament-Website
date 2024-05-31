@@ -9,30 +9,43 @@
     <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
+    <!--Header Section-->
     <header>
+        <!--Logo-->
         <img src="assets/images/pngimg.com - fortnite_PNG25.png" alt="Fortnite Logo">
 
+        <!--Navigation Toggle-->
         <input type="checkbox" name="nav-tab-opener" id="nav-tab-opener">
         <label for="nav-tab-opener" class="nav-arrow"><i class="fa-solid fa-angle-down"></i></label>
+
+        <!--Navigation-->
         <nav>
             <ul>
                 <li><a href="index.html">About</a></li>
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="register.html">Register</a></li>
             </ul>
+            <!--Navigation Close Button-->
             <label for="nav-tab-opener" class="nav-arrow"><i class="fa-solid fa-angle-up"></i></label>
         </nav>
     </header>
 
     <main>
+        <!--Form Section-->
         <section id="form-box">
             <form action="" method="post">
                 <label for="username">User ID</label>
                 <br>
-                <input type="text" name="username" id="username" required placeholder="User ID">
+                <input type="text" name="username" id="username" required placeholder="User ID" minlength="4" maxlength="15">
 
                 <br>
-                
+                <!--
+                These radio buttons will toggle the size of the team registered
+                For Solos, 1 player.
+                For Duos, 2 players.
+                For Trios, 3 players.
+                For Squads, 4 players.
+                -->
                 <input type="radio" name="team" id="solo" checked>
                 <label for="solo" class="squad-size">Solo</label>
 
@@ -49,23 +62,23 @@
                 <label for="squad" class="squad-size">Squad</label>
                 
                 <br>
-
+                <!--These input boxes will be hidden unless selected by the radio buttons-->
                 <div class="duo trio squad">
                     <label for="user-2">User ID #2</label>
                     <br>
-                    <input type="text" name="user-2" id="user-2" required placeholder="User ID">
+                    <input type="text" name="user-2" id="user-2" required placeholder="User ID" minlength="4" maxlength="15">
                 </div>
 
                 <div class="trio squad">
                     <label for="user-3">User ID #3</label>
                     <br>
-                    <input type="text" name="user-3" id="user-3"  required placeholder="User ID">
+                    <input type="text" name="user-3" id="user-3"  required placeholder="User ID" minlength="4" maxlength="15">
                 </div>
 
                 <div class="squad">
                     <label for="user-4">User ID #4</label>
                     <br>
-                    <input type="text" name="user-4" id="user-4" required placeholder="User ID">
+                    <input type="text" name="user-4" id="user-4" required placeholder="User ID" minlength="4" maxlength="15">
                 </div>
 
                 <label for="email-address">Email Address</label>
@@ -81,13 +94,16 @@
         </section>
     </main>
 
+    <!--Footer Section-->
     <footer>
+        <!--Social Links-->
         <ul id="footer-socials">
             <li><a href="https://twitter.com/fortnitegame?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
             <li><a href="https://www.youtube.com/@fortnite" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
             <li><a href="https://www.twitch.tv/fortnite" target="_blank"><i class="fa-brands fa-twitch"></i></a></li>
         </ul>
 
+        <!--Page Links-->
         <ul id="footer-links">
             <li><a href="register.html">Back to Top</a></li>
             <li><a href="index.html">About</a></li>
@@ -95,5 +111,6 @@
         </ul>
     </footer>
 </body>
+<!--Fontawesome Icons-->
 <script src="https://kit.fontawesome.com/ee50a97aed.js" crossorigin="anonymous"></script>
 </html>
