@@ -153,7 +153,8 @@ main{
 }
 
 table{
-    padding: 10% 0;
+    padding: 10%;
+    background-color: rgba(0, 0, 0, 40%);
 }
 
 th, td{
@@ -274,6 +275,7 @@ input::placeholder{
 
 footer{
     background-color: #1C77C3;
+    position: relative;
     bottom: 0;
 }
 
@@ -323,6 +325,7 @@ footer{
     nav li {
         margin-right: 20px;
         padding-bottom: 0px;
+        font-size: 30px;
     }
 
     .nav-arrow{
@@ -373,6 +376,11 @@ footer{
         text-align: right;
     }
 
+    th, td{
+        padding: 10px;
+        font-size: 1.6em;
+    }
+
 
     /*  Footer  */
 
@@ -385,13 +393,16 @@ footer{
 
     #footer-socials li{
         margin-right: 50px;
+        font-size: 30px;
     }
 
     #footer-links{
         display: flex;
+        padding: 10px 0;
     }
 
     #footer-links li{
         margin-right: 50px;
+        font-size: 30px;
     }
 }
