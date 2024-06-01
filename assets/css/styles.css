@@ -130,7 +130,6 @@ main{
 }
 
 .about-box{
-    flex: 1;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -343,9 +342,16 @@ footer{
         font-size: 3em;
     }
 
+    #about{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     #about-container{
         flex-direction: row;
-        gap: 40px;
+        gap: 80px;
         flex-wrap: wrap;
         align-items: start;
     }
@@ -378,7 +384,7 @@ footer{
     }
 
     #footer-socials li{
-        margin-right: 30px;
+        margin-right: 50px;
     }
 
     #footer-links{
@@ -386,6 +392,6 @@ footer{
     }
 
     #footer-links li{
-        margin-right: 30px;
+        margin-right: 50px;
     }
 }
