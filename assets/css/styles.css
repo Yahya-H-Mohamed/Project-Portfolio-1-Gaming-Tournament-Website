@@ -105,17 +105,22 @@ main{
 
 
 #main-banner{
+    position: relative;
     background: url(../images/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.avif) no-repeat center/cover;
     height: 500px;
 }
 
 #main-banner div{
-    background-color: rgba(57, 169, 219, 90%);
-    position: relative;
-    top: 170px;
-    width: 175px;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    width: 250px;
     margin: 0 auto;
     text-align: center;
+}
+
+#main-banner div h1{
+    background-color: rgba(0, 0, 0, 70%);
 }
 
 #about-container{
@@ -152,8 +157,12 @@ main{
     justify-content: center;
 }
 
+#table-page{
+    padding: 10% 0;
+}
+
 table{
-    padding: 10%;
+    padding: 2.5%;
     background-color: rgba(0, 0, 0, 40%);
 }
 
@@ -170,10 +179,11 @@ th, td{
 
 
 form{
-    padding: 50px 0;
+    padding: 50px 30px;
     max-width: 400px;
     width: 80%;
     margin: 0 auto;
+    background-color: rgba(0, 0, 0, 60%);
 }
 
 #form-box{
@@ -181,6 +191,8 @@ form{
     align-items: center;
     justify-content: center;
     font-size: 1.1em;
+    height: 600px;
+    background: url(../images/Fortnite_Metaverse.jpg) no-repeat center/cover;
 }
 
 input[type="text"], input[type="email"]{
@@ -302,8 +314,7 @@ footer{
 
 /*  Media Query for Tablets or Larger  */
 @media screen and (min-width: 768px){
-    /*Header*/
-
+    /*  Header  */
 
     header{
         flex-direction: row;
@@ -325,7 +336,7 @@ footer{
     nav li {
         margin-right: 20px;
         padding-bottom: 0px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .nav-arrow{
@@ -333,12 +344,13 @@ footer{
     }
 
 
-    /**/
+    /*  About  */
 
 
     #main-banner div{
-        top: 100px;
-        width: 200px;
+        bottom: 15px;
+        left: 15px;
+        width: 400px;
     }
 
     #main-banner div h1{
@@ -376,6 +388,10 @@ footer{
         text-align: right;
     }
 
+
+    /*  Schedule  */
+
+
     th, td{
         padding: 10px;
         font-size: 1.6em;
@@ -391,18 +407,13 @@ footer{
         align-items: center;
     }
 
-    #footer-socials li{
+    #footer-socials li, #footer-links li{
         margin-right: 50px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #footer-links{
         display: flex;
         padding: 10px 0;
-    }
-
-    #footer-links li{
-        margin-right: 50px;
-        font-size: 30px;
     }
 }
