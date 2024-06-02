@@ -335,6 +335,7 @@ footer{
     letter-spacing: 1px;
 }
 
+
 /*  Media Query for Tablets or Larger  */
 @media screen and (min-width: 768px){
     /*  Header  */
@@ -369,6 +370,10 @@ footer{
 
     /*  About  */
 
+
+    #main-banner{
+        height: 800px;
+    }
 
     #main-banner div{
         bottom: 15px;
@@ -422,11 +427,9 @@ footer{
 
 }
 
-@media screen and (min-width: 1024px){
-    a{
-        
-    }
 
+/*  Media Query for Laptops or Larger  */
+@media screen and (min-width: 1024px){
     /*  Footer  */
 
 
