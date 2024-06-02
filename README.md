@@ -8,45 +8,45 @@ The Fortnite Tournament website is for gamers from all around the world looking 
 
 - ### Header
    
-In the header section there are 2 subsections, the Fortnite logo and the navigation links. On mobile, the logo and navigation links       appear vertically, there is a down arrow that when toggled will open the navigation links. These are links to the other pages:            About, Schedule and Register. On larger screens the toggle options are removed and the navigation links now appear horizontally to        the logo.
+- In the header section there are 2 subsections, the Fortnite logo and the navigation links. On mobile, the logo and navigation links       appear vertically, there is a down arrow that when toggled will open the navigation links. These are links to the other pages:            About, Schedule and Register. On larger screens the toggle options are removed and the navigation links now appear horizontally to        the logo.
 
 ![Nav Image](assets/images/Nav.png)
       
 - ### About
-- 
-The about page has 2 sections: the banner and the information section. The banner is a large image that covers the full width of          the screen with a text box containing a slogan for the website. The information section holds details about the what the tournament       is, where it can be viewed and what the rewards are.
+  
+- The about page has 2 sections: the banner and the information section. The banner is a large image that covers the full width of          the screen with a text box containing a slogan for the website. The information section holds details about the what the tournament       is, where it can be viewed and what the rewards are.
 
 ![About Image](assets/images/About.png)
       
 - ### Schedule
   
-The schedule page has a background image with a table in the forefront. This table contains key information about the tournament          schedule such as, the dates and times of each tournament and what the format of each tournament will be: Solos, Duos, Trios and           Squads.
+- The schedule page has a background image with a table in the forefront. This table contains key information about the tournament          schedule such as, the dates and times of each tournament and what the format of each tournament will be: Solos, Duos, Trios and           Squads.
 
 ![Schedule Image](assets/images/Schedule.png)
       
 - ### Form
 
-The register page includes a signup form where the user can input their User ID, email and tournament format of choice. Depending         on the selected format, additional input boxes will appear for extra User IDs. Once all necessary boxes are filled and the submit         button is entered, the user should be redirected to a website that confirms all details were inputted correctly.
+- The register page includes a signup form where the user can input their User ID, email and tournament format of choice. Depending         on the selected format, additional input boxes will appear for extra User IDs. Once all necessary boxes are filled and the submit         button is entered, the user should be redirected to a website that confirms all details were inputted correctly.
  
 ![Form Image](assets/images/Form.png)
   
 -  ### Footer
   
-The footer section appears at the bottom on all pages with 2 separate sections, social links and page links. The social links will        open pages on a new tab to their respective platform and the page links work the same as the navigation links. They appear vertically     on phones and tablets whilst displaying horizontally on laptons and larger.
+- The footer section appears at the bottom on all pages with 2 separate sections, social links and page links. The social links will        open pages on a new tab to their respective platform and the page links work the same as the navigation links. They appear vertically     on phones and tablets whilst displaying horizontally on laptons and larger.
    
 ![Footer Image](assets/images/Footer.png)
 
-- ## Testing
+## Testing
 
--- This project works on multiple browers, including but not limited to, Google Chrome and Mozilla Firefox.
+- This project works on multiple browers, including but not limited to, Google Chrome and Mozilla Firefox.
 
--- All sections this project are all clearly visable and easy to navigate through.
+- All sections this project are all clearly visable and easy to navigate through.
 
--- All buttons and links work as intended.
+- All buttons and links work as intended.
 
--- The form only accepts User IDs between 4 and 15 characters and valid emails.
+- The form only accepts User IDs between 4 and 15 characters and valid emails.
 
--- The website is responsive, everything functions as intended regardless of screen size.
+- The website is responsive, everything functions as intended regardless of screen size.
     
 ## Bugs
     
@@ -57,12 +57,29 @@ When building the form element, I encountered an issue with the User IDs, if the
 
 -The CSS validator returned 0 errors
 
--These are the scores lighthouse returned
+-These are the scores lighthouse returned:
 
 ![Lighthouse Score](assets/images/Lighthouse.png)
 
-Deployment:
+## Deployment:
 
-Credit:
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-Media
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://yahya-h-mohamed.github.io/Project-Portfolio-1-Gaming-Tournament-Website/index.html
+
+## Credit:
+
+-I took inspiration from the navigation toggle from the   [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main) 
+
+-I used the same action attribute link from the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main) 
+
+
+## Media
+
+All images used in this project are official artwork directly from [Fortnite](https://www.fortnite.com/) 
+
