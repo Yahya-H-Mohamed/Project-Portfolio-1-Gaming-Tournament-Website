@@ -63,12 +63,10 @@ When building the form element, I encountered an issue with the User IDs, if the
 
 ## Deployment:
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the master branch has been selected, the page provided will be a link to the site
 
 The live link can be found here - https://yahya-h-mohamed.github.io/Project-Portfolio-1-Gaming-Tournament-Website/index.html
 
