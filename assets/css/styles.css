@@ -26,6 +26,11 @@ h1{
 
 a{
     color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 h2{
@@ -38,6 +43,13 @@ p{
 
 .hide-heading{
     display: none;
+}
+
+.active{
+    background-color: white;
+    color: #1C77C3;
+    padding: 3px 5px;
+    border-radius: 5px;
 }
 
 
@@ -66,6 +78,7 @@ nav{
     color: white;
     text-align: center;
     display: none;
+    z-index: 2;
 }
 
 nav li{
@@ -148,6 +161,10 @@ main{
     margin-bottom: 10px;
 }
 
+.about-box a{
+    text-decoration: underline;
+}
+
 
 /* Schedule  */
 
@@ -207,6 +224,7 @@ input[type="text"], input[type="email"]{
     height: 40px;
     width: 100%;
     padding-left: 5px;
+    color: white;
 }
 
 .squad-size{
@@ -405,6 +423,10 @@ footer{
 }
 
 @media screen and (min-width: 1024px){
+    a{
+        
+    }
+
     /*  Footer  */
 
 
