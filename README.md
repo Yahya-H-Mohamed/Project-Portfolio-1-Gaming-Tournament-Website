@@ -1,5 +1,7 @@
-Fortnite Tournament:
+#Fortnite Tournament:
 The Fortnite Tournament website is for gamers from all around the world looking to compete in global online tournaments for money. The site hosts 3 pages that contain all the information they need about the tournaments. The main page contains the about section, this includes information about the tournament. The second page the schedule page, this holds information regarding the date and times of the upcoming tournaments. Lastly, the register form page, this page is for those who have been sold on the tournament and are ready to sign up.
+
+![alt text](assets/images/Fortnite_Metaverse.jpg)
 
 Features:
   Header:
