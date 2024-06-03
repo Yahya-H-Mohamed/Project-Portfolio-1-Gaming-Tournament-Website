@@ -1,112 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Fortnite Tournament
 
-Welcome Yahya Mohamed,
+The Fortnite Tournament website is for gamers from all around the world looking to compete in global online tournaments for money. The site hosts 3 pages that contain all the information they need about the tournaments. The main page contains the about section, this includes information about the tournament. The second page the schedule page, this holds information regarding the date and times of the upcoming tournaments. Lastly, the register form page, this page is for those who have been sold on the tournament and are ready to sign up.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Image](assets/images/Responsive.png)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+## Features
 
-## Gitpod Reminders
+- ### Header
+   
+- In the header section there are 2 subsections, the Fortnite logo and the navigation links. On mobile, the logo and navigation links       appear vertically, there is a down arrow that when toggled will open the navigation links. These are links to the other pages:            About, Schedule and Register. On larger screens the toggle options are removed and the navigation links now appear horizontally to        the logo.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Nav Image](assets/images/Nav.png)
+      
+- ### About
+  
+- The about page has 2 sections: the banner and the information section. The banner is a large image that covers the full width of          the screen with a text box containing a slogan for the website. The information section holds details about the what the tournament       is, where it can be viewed and what the rewards are.
 
-`python3 -m http.server`
+![About Image](assets/images/About.png)
+      
+- ### Schedule
+  
+- The schedule page has a background image with a table in the forefront. This table contains key information about the tournament          schedule such as, the dates and times of each tournament and what the format of each tournament will be: Solos, Duos, Trios and           Squads.
 
-A blue button should appear to click: _Make Public_,
+![Schedule Image](assets/images/Schedule.png)
+      
+- ### Form
 
-Another blue button should appear to click: _Open Browser_.
+- The register page includes a signup form where the user can input their User ID, email and tournament format of choice. Depending         on the selected format, additional input boxes will appear for extra User IDs. Once all necessary boxes are filled and the submit         button is entered, the user should be redirected to a website that confirms all details were inputted correctly.
+ 
+![Form Image](assets/images/Form.png)
+  
+-  ### Footer
+  
+- The footer section appears at the bottom on all pages with 2 separate sections, social links and page links. The social links will        open pages on a new tab to their respective platform and the page links work the same as the navigation links. They appear vertically     on phones and tablets whilst displaying horizontally on laptons and larger.
+   
+![Footer Image](assets/images/Footer.png)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## Testing
 
-A blue button should appear to click: _Make Public_,
+- This project works on multiple browers, including but not limited to, Google Chrome and Mozilla Firefox.
 
-Another blue button should appear to click: _Open Browser_.
+- All sections this project are all clearly visable and easy to navigate through.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- All buttons and links work as intended.
 
-To log into the Heroku toolbelt CLI:
+- The form only accepts User IDs between 4 and 15 characters and valid emails.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- The website is responsive, everything functions as intended regardless of screen size.
+    
+## Bugs
+    
+When building the form element, I encountered an issue with the User IDs, if the solo format is selected, the user could not submit       their form because the other User IDs were required inputs. To hotfix this issue, I removed the required attribute to all additional      User ID inputs. However this allows the user to select any format and submit their form without entering the input fields.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+## Validation:
+- The HTML validator returned 0 errors
 
-------
+-The CSS validator returned 0 errors
 
-## Release History
+-These are the scores lighthouse returned:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Lighthouse Score](assets/images/Lighthouse.png)
 
-**April 26 2024:** Update node version to 16
+## Deployment:
 
-**September 20 2023:** Update Python version to 3.9.17.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page provided will be a link to the site
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The live link can be found here - https://yahya-h-mohamed.github.io/Project-Portfolio-1-Gaming-Tournament-Website/index.html
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Credit:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-I took inspiration from the navigation toggle from the   [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main) 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+-I used the same action attribute link from the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main) 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Media
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+All images used in this project are official artwork directly from [Fortnite](https://www.fortnite.com/) 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
