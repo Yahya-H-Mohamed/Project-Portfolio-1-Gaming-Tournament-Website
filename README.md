@@ -59,7 +59,7 @@ When building the form element, I encountered an issue with the User IDs, if the
 
 -These are the scores lighthouse returned:
 
-![Lighthouse Score](assets/images/Lighthouse.png)
+![Lighthouse Score](assets/images/Lighthouse(2).png)
 
 ## Deployment:
 
